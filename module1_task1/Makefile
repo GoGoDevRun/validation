@@ -1,6 +1,3 @@
-POST_NAME := who-are-we
-POST_TITLE := Who are we
-
 build:
 	hugo -D
 
