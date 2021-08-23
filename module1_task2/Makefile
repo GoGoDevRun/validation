@@ -9,7 +9,4 @@ clean: ##Delete static pages
 	rm -r ./dist/*
 
 help: ##Show this help usage
-	@echo "build: Build static pages"
-	@echo "post: Add Some Content"
-	@echo "clean: Delete static pages"
-	@echo "help: Show this usage"
+	@printf '%s\n%s\n%s\n%s\n' "build: Build static pages" "post: Add Some Content" "clean: Delete static pages" "help: Show this usage"
