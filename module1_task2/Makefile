@@ -12,4 +12,4 @@ help: ##Show this help usage
 	@echo "build: Build static pages"
 	@echo "post: Add Some Content"
 	@echo "clean: Delete static pages"
-	@echo "help: Show this help usage"
+	@echo "help: Show this usage"
