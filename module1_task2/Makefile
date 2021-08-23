@@ -9,7 +9,7 @@ clean: ##Delete static pages
 	rm -r ./dist/*
 
 help: ##Show this help usage
-	echo "build:\tBuild static pages"
-	echo "post:\tAdd Some Content"
-	echo "clean:\tDelete static pages"
-	echo "help:\tShow this help usage"
+	@echo "build:\tBuild static pages"
+	@echo "post:\tAdd Some Content"
+	@echo "clean:\tDelete static pages"
+	@echo "help:\tShow this help usage"
