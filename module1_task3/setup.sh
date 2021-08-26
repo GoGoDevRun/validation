@@ -1,5 +1,8 @@
 #!/bin/bash
-##docker run --rm --tty --interactive --volume=$(pwd):/app --workdir=/app ubuntu:18.04 ./start.sh
-apt-get update && apt-get install -y make hugo
+apt-get update && apt-get install -y make
+apt-get install curl git
+curl -L https://github.com/gohugoio/hugo/releases/download/v0.87.0/hugo_0.87.0_Linux-64bit.deb -o hugo.deb
+apt install ./hugo.deb
 make build
 exit
+
