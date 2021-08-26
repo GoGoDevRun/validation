@@ -1,4 +1,4 @@
 #!/bin/bash
-apt-get update && apt-get install -y hugo make
+apt-get update && apt-get install -y make
 make build
 exit
