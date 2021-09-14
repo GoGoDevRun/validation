@@ -1,3 +1,5 @@
+## Prerequisites
+INstall golang
 ## Lifecycle
 build: buils application
 run: Execute application
