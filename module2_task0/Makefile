@@ -3,7 +3,7 @@ build: ##Build static pages
 	go build
 
 run: ##Add Some Content
-	./awesome-api >./awesome.log 2>&1 &
+	./awesome-api >./awesome-api.log 2>&1 &
 
 stop:  ##stop awesome-api
 	kill "$$(pgrep awesome-api)"
