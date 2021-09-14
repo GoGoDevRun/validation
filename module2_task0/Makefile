@@ -9,9 +9,9 @@ stop:  ##stop awesome-api
 	kill "$$(pgrep awesome-api)"
 
 clean: ## Delete bin and log
+	kill "$$(pgrep awesome-api)"
 	rm awesome-api
 	rm awesome.log
-	rm awesome-api.log
 
 test: ## Test 
 	curl http://localhost:9999
