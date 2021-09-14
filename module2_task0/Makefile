@@ -5,7 +5,7 @@ run: ##Add Some Content
 	./awesome-api >./awesome.log 2>&1 &
 
 stop: ##stop awesome-api
-	pkill pgrep awesome-api
+	kill "$(pgrep awesome-api)"
 
 clean: ## Delete bin and log
 	rm awesome-api
