@@ -11,6 +11,7 @@ stop:  ##stop awesome-api
 clean: ## Delete bin and log
 	rm awesome-api
 	rm awesome.log
+	rm awesome-api.log
 
 test: ## Test 
 	curl http://localhost:9999
